@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/** Utilidades **/
+
+.contenedor {
+    max-width: 95%;
+    width: 1600px;
+    margin: auto;
+}
+
+
+/** Header **/
+
+.logo {
+    padding: 20px 0;
+}
+
+.menu {
+    background-color: red;
+}
+
+.contenido-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.contenido-menu a:hover {
+    background-color: blue;
+}
+
+@media (min-width: 768px) {
+    .contenido-menu a {
+        display: inline-block;
+    }
+}
