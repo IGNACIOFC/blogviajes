@@ -1,4 +1,4 @@
-body {
+    body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -17,6 +17,14 @@ h2 {
     max-width: 95%;
     width: 1600px;
     margin: auto;
+}
+
+.boton {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    background-color: magenta;
 }
 
 
@@ -72,20 +80,16 @@ h2 {
     .otras-entradas {
         flex: 0 0 calc(33.3% - 20px);
     }
-}
-
-.otras-entradas a {
-    display: block;
-    color: magenta;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.otras-entradas a:hover {
-    background-color: magenta;
-    color: white;
-}
-
-.otras-entradas li {
-    list-style: none;
-}
+    .otras-entradas a {
+        display: block;
+        color: magenta;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .otras-entradas a:hover {
+        background-color: magenta;
+        color: white;
+    }
+    .otras-entradas li {
+        list-style: none;
+    }
