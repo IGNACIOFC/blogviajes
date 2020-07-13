@@ -1,95 +1,98 @@
-    body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-img {
-    max-width: 100%;
-}
-
-h2 {
-    color: magenta;
-}
-
-
-/** Utilidades **/
-
-.contenedor {
-    max-width: 95%;
-    width: 1600px;
-    margin: auto;
-}
-
-.boton {
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px;
-    color: white;
-    background-color: magenta;
-}
-
-
-/** Header **/
-
-.logo {
-    padding: 20px 0;
-}
-
-.menu {
-    background-color: mediumvioletred;
-}
-
-.contenido-menu a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px;
-    display: block;
-    text-align: center;
-}
-
-.contenido-menu a:hover {
-    background-color: blue;
-}
-
-@media (min-width: 768px) {
-    .contenido-menu a {
-        display: inline-block;
-    }
-}
-
-
-/** Contenido Principal **/
-
-.contenido-principal img {
-    width: 100%;
-}
-
-.contenido-principal h2 {
-    text-align: left;
-    font-size: 30px;
-}
-
-@media (min-width: 768px) {
-    .contenido-principal {
-        display: flex;
-        justify-content: space-between;
-    }
-    .blog {
-        flex: 0 0 calc(66.6% - 20px);
-    }
-    .otras-entradas {
-        flex: 0 0 calc(33.3% - 20px);
-    }
-    .otras-entradas a {
-        display: block;
-        color: magenta;
-        text-decoration: none;
-        padding: 10px;
-    }
-    .otras-entradas a:hover {
-        background-color: magenta;
-        color: white;
-    }
-    .otras-entradas li {
-        list-style: none;
-    }
+                                                        body {
+                                                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                        }
+                                                        
+                                                        img {
+                                                            max-width: 100%;
+                                                        }
+                                                        
+                                                        h2 {
+                                                            color: magenta;
+                                                        }
+                                                        /** Utilidades **/
+                                                        
+                                                        .contenedor {
+                                                            max-width: 95%;
+                                                            width: 1600px;
+                                                            margin: auto;
+                                                        }
+                                                        
+                                                        .boton {
+                                                            text-decoration: none;
+                                                            display: inline-block;
+                                                            padding: 20px;
+                                                            color: white;
+                                                            background-color: magenta;
+                                                        }
+                                                        /** Header **/
+                                                        
+                                                        .logo {
+                                                            padding: 20px 0;
+                                                        }
+                                                        
+                                                        .menu {
+                                                            background-color: mediumvioletred;
+                                                        }
+                                                        
+                                                        .contenido-menu a {
+                                                            color: white;
+                                                            text-decoration: none;
+                                                            font-size: 20px;
+                                                            padding: 20px;
+                                                            display: block;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .contenido-menu a:hover {
+                                                            background-color: blue;
+                                                        }
+                                                        
+                                                        @media (min-width: 768px) {
+                                                            .contenido-menu a {
+                                                                display: inline-block;
+                                                            }
+                                                        }
+                                                        /** Contenido Principal **/
+                                                        
+                                                        .contenido-principal img {
+                                                            width: 100%;
+                                                        }
+                                                        
+                                                        .contenido-principal h2 {
+                                                            text-align: left;
+                                                            font-size: 30px;
+                                                        }
+                                                        
+                                                        @media (min-width: 768px) {
+                                                            .contenido-principal {
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                            }
+                                                            .blog {
+                                                                flex: 0 0 calc(66.6% - 20px);
+                                                            }
+                                                            .otras-entradas {
+                                                                flex: 0 0 calc(33.3% - 20px);
+                                                            }
+                                                            .contenido-entrada {
+                                                                display: flex;
+                                                                flex-wrap: wrap;
+                                                                justify-content: flex-end;
+                                                            }
+                                                        }
+                                                        
+                                                        .otras-entradas a {
+                                                            display: block;
+                                                            color: magenta;
+                                                            text-decoration: none;
+                                                            padding: 10px;
+                                                        }
+                                                        
+                                                        .otras-entradas a:hover {
+                                                            background-color: magenta;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .otras-entradas li {
+                                                            list-style: none;
+                                                        }
